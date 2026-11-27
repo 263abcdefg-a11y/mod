@@ -51,10 +51,6 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
-    compileOnly fg.deobf("curse.maven:create-328085:4835191")
-    compileOnly fg.deobf("curse.maven:tinkers-construct-74072:5093496")
-    compileOnly fg.deobf("curse.maven:mantle-74924:5093488")
-    compileOnly fg.deobf("curse.maven:slashblade-resharped-942450:5120410")
 }
 
 jar.finalizedBy('reobfJar')
