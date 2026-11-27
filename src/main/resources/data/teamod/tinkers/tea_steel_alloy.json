@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "teamod:molten_tea",
+      "amount": 90
+    },
+    {
+      "name": "tconstruct:blood",
+      "amount": 50
+    },
+    {
+      "name": "teamod:liquid_spider_silk",
+      "amount": 50
+    }
+  ],
+  "result": {
+    "fluid": "teamod:molten_tea_steel",
+    "amount": 90
+  },
+  "temperature": 750
+}

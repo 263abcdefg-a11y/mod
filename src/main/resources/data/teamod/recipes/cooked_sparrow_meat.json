@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "teamod:raw_sparrow_meat"
+  },
+  "result": "teamod:cooked_sparrow_meat",
+  "experience": 0.35,
+  "cookingtime": 200
+}

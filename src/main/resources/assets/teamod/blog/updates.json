@@ -1,0 +1,17 @@
+{
+  "book_title": "TeaMod 開発者日誌 (Developer Blog)",
+  "author": "wmem100002",
+  "read_only": true,
+  "official_links": {
+    "youtube": "https://www.youtube.com/@wmem100002",
+    "x_twitter": "https://x.com/wmem100002"
+  },
+  "entries": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-27",
+      "title": "茶道・稲作・生態系・四季の儀式 統合リリース",
+      "content": "四季の移ろいと天候（雨のリアルな過湿・茶摘み品質）、農林1号・農林8号・農林22号・農林100号の稲作と病害虫防除、スズメバチの巣憑依＆幼虫抜きミニゲーム、楽器と踊りの季節ボス、お茶・生クリーム・ソフトクリーム・本格茶料理・栄養バランス＆ブドウ糖ゲージ、3階層のインゴット（茶殻インゴットは鍬専用・お茶インゴット・茶鋼インゴット）、Create・Tinkers' Construct・SlashBlade連携をすべて実装しました。"
+    }
+  ]
+}

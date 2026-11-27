@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IS",
+    "F S",
+    " IS"
+  ],
+  "key": {
+    "I": {
+      "item": "teamod:tea_ingot"
+    },
+    "F": {
+      "item": "teamod:crow_feather"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "teamod:crow_feather_bow"
+  }
+}

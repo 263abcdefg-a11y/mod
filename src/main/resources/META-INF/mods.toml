@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="teamod"
+version="1.0.0"
+displayName="Tea, Rice & Seasonal Ecology Mod"
+authors="wmem100002"
+description='''
+Comprehensive Tea Ceremony, Realistic Rice Farming (Norin Varieties), Seasonal Bosses, Apiary & Hornet Ecology, Nutrition/Glucose Engine, and Create/Tinkers/SlashBlade Integration.
+'''
+
+[[dependencies.teamod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.teamod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.teamod]]
+    modId="create"
+    mandatory=false
+    versionRange="[0.5.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.teamod]]
+    modId="tconstruct"
+    mandatory=false
+    versionRange="[3.8.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.teamod]]
+    modId="slashblade"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

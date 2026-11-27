@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "teamod:crow_feather"
+    },
+    {
+      "item": "teamod:tea_ingot"
+    }
+  ],
+  "result": {
+    "item": "teamod:crow_quill_pen"
+  }
+}
