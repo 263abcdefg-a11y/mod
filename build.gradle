@@ -1,0 +1,60 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+version = '1.0.0'
+group = 'com.wmem100002.teamod'
+
+base {
+    archivesName = 'teamod-1.20.1-forge'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                teamod {
+                    source sourceSets.main
+                }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                teamod {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
+    compileOnly fg.deobf("curse.maven:create-328085:4835191")
+    compileOnly fg.deobf("curse.maven:tinkers-construct-74072:5093496")
+    compileOnly fg.deobf("curse.maven:mantle-74924:5093488")
+    compileOnly fg.deobf("curse.maven:slashblade-resharped-942450:5120410")
+}
+
+jar.finalizedBy('reobfJar')
